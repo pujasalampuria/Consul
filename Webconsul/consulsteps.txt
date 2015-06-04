@@ -1,0 +1,1001 @@
+ 1648  sudo apt-get purge docker.io
+ 1649  sudo apt-get install docker.io
+ 1650  dpkg -s docker.io
+ 1651  ls
+ 1652  pwd
+ 1653  mkdir docker
+ 1654  cd docker/
+ 1655  ls
+ 1656  wget https://dl.bintray.com/mitchellh/consul/0.4.1_linux_amd64.zip
+ 1657  ls
+ 1658  unzip 0.4.1_linux_amd64.zip 
+ 1659  ls
+ 1660  ls -al
+ 1661  vim consul 
+ 1662  cp consul /usr/local/bin
+ 1663  sudo cp consul /usr/local/bin
+ 1664  ls
+ 1665  cd /usr/local/bin/
+ 1666  ls
+ 1667  cd
+ 1668  cd docker/
+ 1669  ls
+ 1670  vi Dockerfile
+ 1671  ls
+ 1672  cat Dockerfile 
+ 1673  sudo docker build -t puja/consul
+ 1674  sudo docker build -t consul
+ 1675  docker images
+ 1676  sudo docker images
+ 1677  sudo docker build -t consul
+ 1678  ls
+ 1679  sudo docker build -t consul
+ 1680  sudo docker build 
+ 1681  sudo docker build -t consul
+ 1682  sudo docker run hello-world
+ 1683  sudo docker build -t consul
+ 1684  sudo docker build 
+ 1685  sudo docker 
+ 1686  sudo docker build -t consul
+ 1687  sudo docker build -t puja/redis .
+ 1688  vim Dockerfile 
+ 1689  wget https://dl.bintray.com/mitchellh/consul/0.4.1_linux_amd64.zip
+ 1690  ls
+ 1691  rm 0.4.1_linux_amd64.zip
+ 1692  rm 0.4.1_linux_amd64.zip.1 
+ 1693  rm consul 
+ 1694  ls
+ 1695  sudo docker build -t puja/redis .
+ 1696  vim Dockerfile 
+ 1697  sudo docker build -t puja/redis .
+ 1698  vim Dockerfile 
+ 1699  sudo docker build -t puja/redis .
+ 1700  ls
+ 1701  vi consul.sh
+ 1702  vim Dockerfile 
+ 1703  ls
+ 1704  sudo docker build -t puja/redis .
+ 1705  vim Dockerfile 
+ 1706  sudo docker build -t puja/redis .
+ 1707  docker images
+ 1708  sudo docker images
+ 1709  vim Dockerfile 
+ 1710  ls
+ 1711  vim consul.sh 
+ 1712  ls
+ 1713  sudo docker images
+ 1714  sudo docker run --name consul -d puja/consul
+ 1715  sudo docker run --link consul:db -i -t ubuntu:14.04 /bin/bash
+ 1716  docker run -d -v /var/lib/mysql-container:/var/lib/mysql -n database -p 3306:3306 mysql
+ 1717  sudo docker run -d -n consul -p 3306:3306 consul
+ 1718  sudo docker run -d -n consul -p 3306:3306 puja/consul
+ 1719  sudo docker run -d -n puja/consul -p 3306:3306 puja/consul
+ 1720  ls
+ 1721  cd /usr/local/bin/
+ 1722  consul
+ 1723  consul members
+ 1724  pwd
+ 1725  consul agent -server -bootstrap-expect 1 -data-dir /usr/local/bin/consul 
+ 1726  consul agent -server -bootstrap-expect 1 -data-dir /usr/local/bin
+ 1727  consul agent -server -bootstrap-expect 1 -data-dir /usr/local/bin/consul 
+ 1728  consul members
+ 1729  consul agent -server -bootstrap -data-dir /tmp/consul
+ 1730  cd
+ 1731  sudo mkdir /etc/consul.d
+ 1732  echo '{"service": {"name": "web", "tags": ["rails"], "port": 80}}' /etc/consul.d/web.json
+ 1733  cd /etc/consul.d/
+ 1734  ls
+ 1735  cd
+ 1736  consul agent -server -bootstrap-expect 1 -data-dir /tmp/consul -config-dir /etc/consul.d
+ 1737  sudo apt-get purge python-pip apache2 libapache2-mod-wsgi
+ 1738  sudo apt-get install python-pip
+ 1739  pip uninstall virtualenv
+ 1740  sudo pip uninstall virtualenv
+ 1741  sudo pip uninstall django
+ 1742  cd /home/puja/myproject/
+ 1743  ls
+ 1744  cd ..
+ 1745  sudo rm -rf myproject/
+ 1746  ls
+ 1747  cd myproject/
+ 1748  ./manage.py runserver 192.168.1.86:8000
+ 1749  cd
+ 1750  cd /home/puja/JBoss/
+ 1751  ls
+ 1752  cd ..
+ 1753  rm -rf JBoss/
+ 1754  cd JBoss/
+ 1755  ls
+ 1756  cd jboss-as-7.1.1.Final/
+ 1757  ls
+ 1758  cd bin/
+ 1759  ls
+ 1760  ./standalone.sh -Djboss.bind.address=192.168.1.86 -Djboss.bind.address.management=192.168.1.86&
+ 1761  consul members
+ 1762  curl localhost:8500/v1/catalog/nodes
+ 1763  dig @127.0.0.1 -p 8600 Armons-MacBook-Air.node.consul
+ 1764  dig @127.0.0.1 -p 8600 web.service.consul
+ 1765  dig @127.0.0.1 -p 8600 web.service.consul SRV
+ 1766  dig @127.0.0.1 -p 8600 rails.web.service.consul
+ 1767  curl http://localhost:8500/v1/catalog/service/web
+ 1768  consul members
+ 1769  consul agent -server -data-dir /tmp/consul
+ 1770  sudo docker run -p 8400:8400 -p 8500:8500 -p 8600:53/udp -h node1 progrium/consul -server -bootstrap -ui-dir /ui
+ 1771  ps -ef |grep 8400
+ 1772  docker ps
+ 1773  sudo docker ps
+ 1774  curl localhost:8500
+ 1775  consul members
+ 1776  cd
+ 1777  cd /home/puja/KIProject/
+ 1778  ls
+ 1779  git status
+ 1780  git checkout Supervisor/
+ 1781  git status
+ 1782  git checkout Supervisor/
+ 1783  cde
+ 1784  cd
+ 1785  git clone
+ 1786  git clone https://github.com/TechyShreeyash/KIProject
+ 1787  git pull
+ 1788  cd KIProject/
+ 1789  git pill
+ 1790  git pull
+ 1791  ls
+ 1792  clear
+ 1793  ls
+ 1794  git pull
+ 1795  git status
+ 1796  git add PSAD/PSADWorkflowHandlePKG.xml
+ 1797  git commit -m "Added comment to the PSAD Prep KI"
+ 1798  git push
+ 1799  ls
+ 1800  git status
+ 1801  git pull
+ 1802  cd
+ 1803  mv /home/puja/Downloads/0.5.2_linux_amd64.zip /usr/local/bin/
+ 1804  sudo mv /home/puja/Downloads/0.5.2_linux_amd64.zip /usr/local/bin/
+ 1805  cd /usr/local/bin/
+ 1806  unzip 0.5.2_linux_amd64.zip 
+ 1807  ls
+ 1808  rm -rf 0.5.2_linux_amd64.zip 
+ 1809  sudo rm -rf 0.5.2_linux_amd64.zip 
+ 1810  cd
+ 1811  mv /home/puja/Downloads/0.5.2_linux_amd64\(1\).zip /home/puja/
+ 1812  cd /home/puja/
+ 1813  unzip 0.5.2_linux_amd64\(1\).zip 
+ 1814  consul agent -server -bootstrap-expect 1 -data-dir /tmp/consul
+ 1815  consul agent -server -bootstrap-expect 1 -data-dir /tmp/consul
+ 1816  consul agent -server -data-dir /tmp/consul
+ 1817  screen
+ 1818  cd /usr/local/lib/
+ 1819  ls
+ 1820  cd ..
+ 1821  cd bin/
+ 1822  ls
+ 1823  unzip 0.3.0_linux_amd64.zip 
+ 1824  sudo unzip 0.3.0_linux_amd64.zip 
+ 1825  ls
+ 1826  consul
+ 1827  docker pull progrium/consul
+ 1828  sudo docker pull progrium/consul
+ 1829  docker run -p 8400:8400 -p 8500:8500 -p 8600:53/udp -h node1 progrium/consul -server -bootstrap
+ 1830  cd
+ 1831  sudo docker run -p 8400:8400 -p 8500:8500 -p 8600:53/udp -h node1 progrium/consul -server -bootstrap
+ 1832  docker images
+ 1833  sudo docker images
+ 1834  docker run -p 8400:8400 -p 8500:8500 -p 8600:53/udp -h node1 progrium/consul -server -bootstrap
+ 1835  sudo docker run -p 8400:8400 -p 8500:8500 -p 8600:53/udp -h node1 progrium/consul -server -bootstrap
+ 1836  sudo docker run -p 8400:8400 -p 8500:8500 -p 8600:53/udp -h node1 progrium/consul -server -bootstrap -ui-dir /ui
+ 1837  docker run -d --name node1 -h node1 progrium/consul -server -bootstrap-expect 3
+ 1838  sudo docker run -d --name node1 -h node1 progrium/consul -server -bootstrap-expect 3
+ 1839  JOIN_IP="$(docker inspect -f '{{.NetworkSettings.IPAddress}}' node1)"
+ 1840  sudo JOIN_IP="$(docker inspect -f '{{.NetworkSettings.IPAddress}}' node1)"
+ 1841  JOIN_IP="$(docker inspect -f '{{.NetworkSettings.IPAddress}}' node1)"
+ 1842  sudo docker push
+ 1843  docker images
+ 1844  sudo docker images
+ 1845  sudo docker push puja/consul
+ 1846  sudo docker search tutorial
+ 1847  sudo docker pull learn/tutorial
+ 1848  sudo docker run learn/tutorial echo "hello world"
+ 1849  sudo docker run learn/tutorial apt-get install -y ping
+ 1850  sudo docker commit 698 learn/ping
+ 1851  sudo docker images
+ 1852  sudo docker push progrium/consul
+ 1853  sudo docker version
+ 1854  sudo docker info
+ 1855  cd /home/puja/Documents/
+ 1856  cd ..
+ 1857  cd docker/
+ 1858  ls
+ 1859  vim Dockerfile 
+ 1860  sudo docker build -t puja/redis .
+ 1861  cd
+ 1862  screen -d
+ 1863  ps -ef
+ 1864  ps -ef | consul
+ 1865  ps -ef | grep consul
+ 1866  kill -9 1913
+ 1867  ps -ef |grep consul
+ 1868  cd /usr/local/bin/
+ 1869  ls
+ 1870  sudo unzip *.zip
+ 1871  consul
+ 1872  consul members
+ 1873  adduser consul
+ 1874  sudo adduser consul
+ 1875  clear
+ 1876  consul agent -server -bootstrap-expect 1 -data-dir /tmp/consul
+ 1877  consul
+ 1878  consul agent -server -bootstrap-expect 1 -data-dir /tmp/consul
+ 1879  consul agent -data-dir /tmp/consul -client 192.0.2.50 -ui-dir /home/your_user/dir -join 192.0.2.1
+ 1880  consul agent -data-dir /tmp/consul -client 192.168.1.86 -ui-dir /home/your_user/dir -join 192.0.2.1
+ 1881  consul members
+ 1882  consul members -rpc-addr=192.168.1.86:8400
+ 1883  consul members
+ 1884  ps -ef | consul
+ 1885  ps -ef | grep consul
+ 1886  dpkg -s  docker.io
+ 1887  sudo apt-get purge  docker.io
+ 1888  sudo dpkg --configure -a
+ 1889  sudo apt-get purge  docker.io
+ 1890  dpkg -s  docker.io
+ 1891  cd
+ 1892  sudo apt-get install docker.io
+ 1893  source /etc/bash_completion.d/docker.io
+ 1894  sudo docker info
+ 1895  docker images
+ 1896  sudo docker images
+ 1897  cd docker/
+ 1898  ls
+ 1899  vim consul.sh 
+ 1900  vim Dockerfile 
+ 1901  ls
+ 1902  vim Dockerfile 
+ 1903  docker
+ 1904  docker build
+ 1905  sudo docker build -t puja/consul1
+ 1906  sudo docker build -t puja
+ 1907  sudo docker build -t puja/consul1 .
+ 1908  cd /opt/
+ 1909  ls
+ 1910  cd ..
+ 1911  cd
+ 1912  cd docker/
+ 1913  ls
+ 1914  vi consul.sh 
+ 1915  vim Dockerfile 
+ 1916  sudo docker build -t puja/consul1 .
+ 1917  ls
+ 1918  vim Dockerfile 
+ 1919  sudo docker build -t puja/consul1 .
+ 1920  sudo docker build .
+ 1921  vim Dockerfile 
+ 1922  sudo docker build .
+ 1923  vim Dockerfile 
+ 1924  sudo docker build .
+ 1925  sudo docker info
+ 1926  sudo docker version
+ 1927  sudo docker search ubuntu
+ 1928  sudo docker iamges
+ 1929  sudo docker images
+ 1930  sudo docker commit 8f9ae584974a puja/redis
+ 1931  sudo docker commit 196e7097887b puja/consul1
+ 1932  sudo docker
+ 1933  sudo apt-get update
+ 1934  sudo docker ps
+ 1935  docker run -p 8080:80 tutum/hello-world
+ 1936  sudo docker run -p 8080:80 tutum/hello-world
+ 1937  ps -ef |gerp 8080
+ 1938  ps -ef |grep 8080
+ 1939  sudo docker run -p 8080:80 tutum/hello-world
+ 1940  consul agent -server -data-dir /tmp/consul
+ 1941  screen 
+ 1942  ps -ef | grep consul
+ 1943  cd /usr/local/bin/
+ 1944  ls
+ 1945  consul
+ 1946  consul agent -server -bootstrap -data-dir /tmp/consul
+ 1947  consul join 192.0.2.2 192.0.2.3
+ 1948  consul members
+ 1949  consul join 192.0.2.2
+ 1950  cd
+ 1951  cd docker/
+ 1952  sudo docker ps
+ 1953  ls
+ 1954  docker login
+ 1955  sudo docker login
+ 1956  docker run tutum/hello-world
+ 1957  sudo docker run tutum/hello-world
+ 1958  screen
+ 1959  consul agent -server -data-dir /tmp/consul
+ 1960  cd ..
+ 1961  cd puja/
+ 1962  cd KIProject/
+ 1963  ls
+ 1964  git status
+ 1965  git pull
+ 1966  git checkout JBoss/JBossWorkflowHandlePKG.xml
+ 1967  git pull
+ 1968  docker images
+ 1969  sudo docker images -a
+ 1970  ls -l
+ 1971  cd mkdir Consul
+ 1972  cd Consul/
+ 1973  vim Dockerfile
+ 1974  sudo docker build -t puja/consul:v1
+ 1975  sudo docker build -t puja/consul:v1 .
+ 1976  vim Dockerfile
+ 1977  sudo docker build -t puja/consul:v1 .
+ 1978  which unzip
+ 1979  vim Dockerfile
+ 1980  sudo docker build -t puja/consul:v1 .
+ 1981  vim Dockerfile
+ 1982  sudo docker build -t puja/consul:v1 .
+ 1983  sudo docker images -a
+ 1984  sudo docker run -it puja/cosul:v1 --name consulserver
+ 1985  sudo docker run -it puja/consul:v1 --name consulserver
+ 1986  sudo docker run -it --name server puja/consul:v1
+ 1987  sudo docker ps -a
+ 1988  sudo docker run -it -d --name server puja/consul:v1
+ 1989  sudo docker start server
+ 1990  sudo docker ps -a
+ 1991  sudo docker exec server /bin/bash
+ 1992  sudo docker server exec  /bin/bash
+ 1993  sudo docker ps -a
+ 1994  vim Dockerfile
+ 1995  sudo docker ps -a
+ 1996  sudo docker rm ae3942aa654d 09609fb52020
+ 1997  sudo docker ps -a
+ 1998  sudo docker build -t puja/consul:v1 .
+ 1999  vim Dockerfile
+ 2000  sudo docker build -t puja/consul:v1 .
+ 2001  sudo docker run -it -d --name bserver puja/consul:v1 
+ 2002  sudo docker ps -a
+ 2003  sudo docker exec e308841adec2 /bin/bash
+ 2004  sudo docker exec bserver /bin/bash
+ 2005  sudo docker stop
+ 2006  sudo docker stop ae3942aa654d
+ 2007  sudo docker stop
+ 2008  sudo docker ps -a
+ 2009  sudo docker 
+ 2010  sudo docker stop e308841adec2
+ 2011  sudo docker ps -a
+ 2012  sudo docker stop e308841adec2
+ 2013  sudo docker stop bserver
+ 2014  sudo docker ps -a
+ 2015  ls
+ 2016  vim Dockerfile 
+ 2017  sudo docker stop bserver
+ 2018  sudo docker ps -a
+ 2019  vim Dockerfile 
+ 2020  sudo docker 
+ 2021  sudo docker rm bserver
+ 2022  vim Dockerfile
+ 2023  sudo docker build -t puja/consul:v1 .
+ 2024  sudo docker run -it -d --name bserver puja/consul:v1 -bootstrap -data-dir /tmp/consul
+ 2025  sudo docker ps -a
+ 2026  vim Dockerfile
+ 2027  sudo docker build -t puja/consul:v1 .
+ 2028  sudo docker run -it -d --name bserver puja/consul:v1 -bootstrap -data-dir /tmp/consul
+ 2029  sudo docker rm bserver
+ 2030  sudo docker run -it -d --name bserver puja/consul:v1 -bootstrap -data-dir /tmp/consul
+ 2031  sudo docker ps -a
+ 2032  vim Dockerfile
+ 2033  sudo docker rm bserver
+ 2034  sudo docker build -t puja/consul:v1 .
+ 2035  sudo docker run -it -d --name bserver puja/consul:v1 consul agent -server -bootstrap -data-dir /tmp/consul
+ 2036  sudo docker ps -a
+ 2037  sudo docker run -it -d --name bserver puja/consul:v1 consul agent -server -data-dir /tmp/consul
+ 2038  sudo docker run -it -d --name server puja/consul:v1 consul agent -server -data-dir /tmp/consul
+ 2039  sudo docker ps -a
+ 2040  sudo docker -f server 
+ 2041  sudo docker -f {{}} server 
+ 2042  sudo docker -f "{{}}" server 
+ 2043  sudo docker -f "{}" server 
+ 2044  sudo docker -f "" server 
+ 2045  sudo docker inspect --f "" server 
+ 2046  sudo docker inspect --f {{}} server 
+ 2047  sudo docker inspect --f "{{}}" server 
+ 2048  sudo docker inspect --f '{}' server 
+ 2049  sudo docker inspect --f '{{}}' server 
+ 2050  sudo docker inspect --format '{{}}' server 
+ 2051  sudo docker inspect --format '' server 
+ 2052  sudo docker inspect --format '{{.NetworkSettings.IPAddress}}' server 
+ 2053  sudo docker exec bserver consul join 172.17.0.17
+ 2054  sudo docker exec -it bserver consul join 172.17.0.17
+ 2055  sudo docker version
+ 2056  sudo docker 
+ 2057  sudo apt-get install docker.io
+ 2058* sudo docker versio
+ 2059  sudo apt-get install 
+ 2060  sudo docker version
+ 2061  sudo apt install linux-image-extra-`uname -r`
+ 2062  sudo sh -c "wget -qO- https://get.docker.io/gpg | apt-key add -"
+ 2063  sudo sh -c "echo deb http://get.docker.io/ubuntu docker main\
+> /etc/apt/sources.list.d/docker.list"
+ 2064* sudo apt    up
+ 2065  sudo apt install lxc-docker
+ 2066  sudo docker version
+ 2067  sudo docker exec -it bserver consul join 172.17.0.17
+ 2068* 
+ 2069  sudo docker run bserver 
+ 2070  sudo docker start bserver 
+ 2071  sudo docker ps -a
+ 2072  sudo docker start bserver 
+ 2073  sudo docker start bserver consul agent -server -bootstrap -data-dir /tmp/consul
+ 2074  sudo docker start bserver 
+ 2075  sudo docker ps -a
+ 2076  sudo docker start bserver 
+ 2077  sudo docker ps -a
+ 2078  sudo docker exec -it bserver consul join 172.17.0.17
+ 2079  sudo docker exec -it bserver 
+ 2080  sudo docker exec --help
+ 2081  sudo docker start server 
+ 2082  sudo docker ps -a
+ 2083  sudo docker start server 
+ 2084  sudo docker ps -a
+ 2085  clear
+ 2086  sudo docker ps -a
+ 2087  sudo docker exec -it bserver /bin/bash
+ 2088  sudo docker exec -it server /bin/bash
+ 2089  sudo docker inspect --format '{{.NetworkSettings.IPAddress}}' server 
+ 2090  sudo docker exec -it bserver consul join 172.17.0.3
+ 2091  sudo docker exec -it bserver consul member
+ 2092  sudo docker exec -it bserver consul members
+ 2093  sudo docker exec -it bserver /bin/bash
+ 2094  sudo docker exec -it bserver consul  agent reload  -server -data-dir /tmp/consul
+ 2095  sudo docker exec -it /bin/bash
+ 2096  sudo docker -it bserver stop
+ 2097  sudo docker -it stop bserver
+ 2098  sudo docker --it stop bserver
+ 2099  sudo docker stop bserver
+ 2100  sudo docker start bserver consul agent -server -data-dir /tmp/consul
+ 2101  sudo docker start bserver "consul agent -server -data-dir /tmp/consul"
+ 2102  sudo docker ps -a
+ 2103  sudo docker stop bserver
+ 2104  sudo docker start bserver "consul agent -server -data-dir /tmp/consul"
+ 2105  sudo docker ps -a
+ 2106  sudo docker stop bserver
+ 2107  sudo docker ps -a
+ 2108  sudo docker start bserver
+ 2109  cat Dockerfile 
+ 2110  ls -l
+ 2111  cd ..
+ 2112  ls -l
+ 2113  cp -R Consul BootStrapConsul
+ 2114  mv BootStrapConsul BootstrapConsul
+ 2115  cd Consul/
+ 2116  ls -l
+ 2117  vim Dockerfile 
+ 2118  cd 
+ 2119  cd docker/
+ 2120  ls
+ 2121  vim Dockerfile 
+ 2122  cd
+ 2123  cd KIProject/coreKIs/
+ 2124  cd..
+ 2125  cd ..
+ 2126  cd Consul/
+ 2127  ls
+ 2128  vim Dockerfile 
+ 2129  sudo docker images
+ 2130  sudo docker rm 75b887aa171a
+ 2131  sudo docker rmi 75b887aa171a
+ 2132  sudo docker stop 6bb0a1b1dd8d
+ 2133  sudo docker rm 6bb0a1b1dd8d
+ 2134  sudo docker rmi 75b887aa171a
+ 2135  sudo docker stop b88e9485326b
+ 2136  sudo docker rm b88e9485326b
+ 2137  sudo docker rmi 75b887aa171a
+ 2138  sudo docker images
+ 2139  sudo docker rmi 113cd71182d4 80b49888901b 1cf66ba82c2a
+ 2140  sudo docker image
+ 2141  sudo docker images
+ 2142  sudo docker rmi 80ca33dcd1e9
+ 2143  sudo docker rm af2e1ff12e57
+ 2144  sudo docker rmi 80ca33dcd1e9
+ 2145  sudo docker rm 7ef4a888563a
+ 2146  sudo docker rmi 80ca33dcd1e9
+ 2147  sudo docker rm 9532edee0b19
+ 2148  sudo docker rmi 80ca33dcd1e9
+ 2149  sudo docker images
+ 2150  sudo docker rmi c4a24f5782c0
+ 2151  ls -l
+ 2152  vim Dockerfile 
+ 2153  sudo docker build -t puja/consul:server .
+ 2154  sudo docker images
+ 2155  cd ../BootstrapConsul/
+ 2156  ls -l
+ 2157  vim Dockerfile 
+ 2158  vim start.sh
+ 2159  sudo docker build -t puja/consul:bserver .
+ 2160  ls -l
+ 2161  sudo docker images
+ 2162  sudo docker run -it -d --name server server 
+ 2163  sudo docker run -it -d --name puja/server server 
+ 2164  sudo docker run -it -d --name puja/consul:server server 
+ 2165* sudo docker run -it -d --name server puja/consul:bserver
+ 2166  ls -l
+ 2167  sudo docker ps -a
+ 2168  sudo docker inspect -f '' server
+ 2169  sudo docker inspect -f '{{.NetworkSettings.IPAddress}}' server
+ 2170  sudo docker run -it -d --name bserver puja/consul:bserver 172.17.0.12
+ 2171  sudo docker ps -a
+ 2172  sudo docker run -it --name bserver puja/consul:bserver 172.17.0.12
+ 2173  sudo docker rm bserver
+ 2174  sudo docker run -it --name bserver puja/consul:bserver 172.17.0.12
+ 2175  vim Dockerfile 
+ 2176  sudo docker build -t puja/consul:bserver .
+ 2177  sudo docker rm bserver
+ 2178  sudo docker run -it --name bserver puja/consul:bserver 172.17.0.12
+ 2179  cat start.sh 
+ 2180  sudo docker run -it -d --name bserver puja/consul:bserver 172.17.0.12
+ 2181  sudo docker rm bserver
+ 2182  sudo docker run -it -d --name bserver puja/consul:bserver 172.17.0.12
+ 2183  sudo docker ps -a
+ 2184  vim Dockerfile 
+ 2185  vim start.sh 
+ 2186  sudo docker exec -it bserver consul agent -server -bootstrap -data-dir /tmp/consul
+ 2187* 
+ 2188  sudo docker rm bserver
+ 2189  sudo docker stop bserver
+ 2190  sudo docker rm bserver
+ 2191  sudo docker build -t puja/consul:bserver .
+ 2192  sudo docker run -it -d --name bserver puja/consul:bserver
+ 2193  sudo docker ps -a 
+ 2194  sudo docker exec -it bserver consul join 172.17.0.12
+ 2195  sudo docker exec -it bserver ps -ef | consul
+ 2196  sudo docker exec -it bserver ps -ef | grep consul
+ 2197  sudo docker exec -it bserver ps -ef | grep bootstrap
+ 2198  sudo docker exec -it bserver kill 6
+ 2199  sudo docker exec -it bserver ps -ef | grep bootstrap
+ 2200  sudo docker exec -it bserver ps -ef | grep consul
+ 2201  sudo docker ps -a 
+ 2202  sudo docker exec -it server bash
+ 2203  tail -f /tmp/consul/checkpoint-signature
+ 2204  touch tail -f /tmp/consul/checkpoint-signature
+ 2205  mkdir -p tail -f /tmp/consul/
+ 2206  mkdir -p /tmp/consul/
+ 2207  touch tail -f /tmp/consul/checkpoint-signature
+ 2208  tail -f /tmp/consul/checkpoint-signature
+ 2209  vim Dockerfile 
+ 2210  cat start.sh 
+ 2211  cat Dockerfile 
+ 2212  vim start.sh 
+ 2213  cat serverStart.sh 
+ 2214  ls -l
+ 2215  sudo docker ps -a
+ 2216  sudo docker start bserver
+ 2217  sudo docker ps -a
+ 2218  sudo docker exec -it bserver consul join 172.17.0.12
+ 2219  sudo docker exec -it bserver ps -ef | grep consul
+ 2220  sudo docker exec -it bserver ps -ef | grep bootstap
+ 2221  sudo docker exec -it bserver ps -ef | grep bootstrap
+ 2222  vim Dockerfile 
+ 2223  vim start.sh 
+ 2224  sudo docker build -t puja/consul:bserver .
+ 2225  ls -l
+ 2226  sudo docker ps -a
+ 2227  sudo docker rm bserver
+ 2228  sudo docker stop bserver
+ 2229  sudo docker rm bserver
+ 2230  sudo docker run -it -d --name bserver puja/consul:bserver
+ 2231  sudo docker ps -a
+ 2232  sudo docker exec -it bserver consul join 172.17.0.12
+ 2233  sudo docker exec -it bserver ps -ef | grep bootstrap
+ 2234  sudo docker exec -it bserver kill -9 6
+ 2235  sudo docker ps -a
+ 2236  sudo docker exec -it bserver ps -ef | grep consul
+ 2237  sudo docker exec -it bserver consul members
+ 2238* sudo docker exec -it server /bin/
+ 2239  sudo docker exec -it server /bin/bash 
+ 2240  sudo docker exec -it bserver consul members
+ 2241  sudo docker exec -it bserver consul agent -server -data-dir /tmp/consul
+ 2242  sudo docker ps -a
+ 2243  sudo docker stop bserver
+ 2244  sudo docker rm bserver
+ 2245  sudo docker run -it -d --name bserver --link server:server puja/consul:bserver
+ 2246  sudo docker ps -a
+ 2247  sudo docker exec -it bserver bash
+ 2248  sudo docker  bserver -f
+ 2249  sudo docker  -f bserver 
+ 2250  sudo docker log -f bserver 
+ 2251  sudo docker log  bserver 
+ 2252  sudo docker log -help
+ 2253  sudo docker log --help
+ 2254  sudo docker --help
+ 2255  sudo docker logs  bserver 
+ 2256  sudo docker logs -f bserver 
+ 2257  sudo docker login
+ 2258* sudo docker 
+ 2259  sudo docker 
+ 2260  sudo docker ps -a
+ 2261  sudo docker 
+ 2262  sudo docker images
+ 2263  sudo docker push puja/consul
+ 2264* 
+ 2265  sudo docker build -t pujasalampuria/consul:bserver .
+ 2266  sudo docker images
+ 2267  sudo docker push pujasalmpuria/consul
+ 2268  sudo docker push pujasalampuria/consul
+ 2269  docker run -p 8400:8400 -p 8500:8500 -p 8600:53/udp -h node1 progrium/consul -server -bootstrap
+ 2270  sudo docker run -d -p 8400:8400 -p 8500:8500 -p 8600:53/udp -h node1 progrium/consul -server -bootstrap
+ 2271  sudo docker run -d -p 8400:8400 -p 8500:8500 -p 8600:53/udp -h node1 progrium/consul -server -bootstrap -ui-dir /ui
+ 2272  sudo docker stop node1
+ 2273  sudo docker run -d -p 8400:8400 -p 8500:8500 -p 8600:53/udp -h node1 progrium/consul -server -bootstrap -ui-dir /ui
+ 2274  ps -ef |grep 8080
+ 2275  sudo docker rm node1
+ 2276  sudo docker run -d -p 8400:8400 -p 8500:8500 -p 8600:53/udp -h node1 progrium/consul -server -bootstrap -ui-dir /ui
+ 2277  sudo docker rm node1
+ 2278  sudo docker ps -a
+ 2279  sudo docker rm node1
+ 2280  sudo docker run -d -p 8400:8401 -p 8500:8501 -p 8600:54/udp -h node1 progrium/consul -server -bootstrap -ui-dir /ui
+ 2281  sudo docker run -d -p 8401:8400 -p 8501:8500 -p 8601:53/udp -h node1 progrium/consul -server -bootstrap -ui-dir /ui
+ 2282  sudo docker run -d --name node1 -h node1 progrium/consul -server -bootstrap-expect 2
+ 2283  sudo docker ps -a
+ 2284  docker inspect -f '{{.NetworkSettings.IPAddress}}' node1
+ 2285  sudo docker inspect -f '{{.NetworkSettings.IPAddress}}' node1
+ 2286  sudo docker run -d --name node2 -h node2 progrium/consul -server -join 172.17.0.31
+ 2287  sudo docker run -d -p 8400:8400 -p 8500:8500 -p 8600:53/udp --name node4 -h node4 progrium/consul -join 172.17.0.31
+ 2288  sudo docker run -d -p 8401:8400 -p 8501:8500 -p 8601:53/udp --name node4 -h node4 progrium/consul -join 172.17.0.31
+ 2289  sudo docker rm node4
+ 2290  sudo docker run -d -p 8401:8400 -p 8501:8500 -p 8601:53/udp --name node4 -h node4 progrium/consul -join 172.17.0.31
+ 2291  sudo  docker run -d --name node3 -h node3 progrium/consul -server -join 172.17.0.31
+ 2292  curl localhost:8500/v1/catalog/nodes
+ 2293  dig @172.17.0.25 -p 8601 node1.node.consul
+ 2294  consul members
+ 2295  dig @172.17.0.25 -p 8601 node1.node.consul
+ 2296  ps -ef | grep consul
+ 2297  ps -ef | grep 8601
+ 2298  dig @0.0.0.0 -p 8600 node1.node.consul
+ 2299  consul members
+ 2300  docker run -d --name node1 -h node1 progrium/consul -server -bootstrap-expect 3
+ 2301  sudo docker run -d --name node1 -h node1 progrium/consul -server -bootstrap-expect 3
+ 2302  sudo docker rm node1
+ 2303  sudo docker stop node1
+ 2304  sudo docker rm node1
+ 2305  sudo docker run -d --name node1 -h node1 progrium/consul -server -bootstrap-expect 3
+ 2306  docker inspect -f '{{.NetworkSettings.IPAddress}}' node1
+ 2307  sudo docker inspect -f '{{.NetworkSettings.IPAddress}}' node1
+ 2308  sudo docker run -d --name node2 -h node2 progrium/consul -server -join 172.17.0.36
+ 2309  sudo docker rm node2
+ 2310  sudo docker stop node2
+ 2311  sudo docker rm node2
+ 2312  sudo docker run -d --name node2 -h node2 progrium/consul -server -join 172.17.0.36
+ 2313  sudo docker stop node3
+ 2314  sudo docker rm node3
+ 2315  sudo docker run -d --name node3 -h node3 progrium/consul -server -join 172.17.0.36
+ 2316  sudo docker run -d -p 8400:8400 -p 8500:8500 -p 8600:53/udp --name node4 -h node4 progrium/consul -join 172.17.0.36
+ 2317  sudo docker stop node4
+ 2318  sudo docker rm node4
+ 2319  sudo docker run -d -p 8400:8400 -p 8500:8500 -p 8600:53/udp --name node4 -h node4 progrium/consul -join 172.17.0.36
+ 2320  sudo docker run -d -p 8401:8400 -p 8501:8500 -p 8601:53/udp --name node4 -h node4 progrium/consul -join 172.17.0.36
+ 2321  sudo docker stop node4
+ 2322  sudo docker rm node4
+ 2323  sudo docker run -d -p 8401:8400 -p 8501:8500 -p 8601:53/udp --name node4 -h node4 progrium/consul -join 172.17.0.36
+ 2324  ps -ef |grep 8601
+ 2325  kill -9 32275
+ 2326  kill -9 21702
+ 2327  ps -ef |grep 8601
+ 2328  ls
+ 2329  ps -ef |grep 8601
+ 2330  sudo kill -9 32275 
+ 2331  sudo docker run -d -p 8401:8400 -p 8501:8500 -p 8601:53/udp --name node4 -h node4 progrium/consul -join 172.17.0.36 
+ 2332  sudo docker stop node4
+ 2333  sudo docker rm node4
+ 2334  sudo docker run -d -p 8401:8400 -p 8501:8500 -p 8601:53/udp --name node4 -h node4 progrium/consul -join 172.17.0.36 
+ 2335  ps -ef |grep 8601
+ 2336* sudo docker run -d -p 8401:8400 -p 8501:8500 -p 8601:53/udp --name node4 -h node4 progrium/consul -join 172.17.
+ 2337  sudo docker stop node4
+ 2338  sudo docker rm node4
+ 2339  sudo docker run -d -p 8401:8400 -p 8501:8500 -p 8601:53/udp --name node4 -h node4 progrium/consul -join 172.17.0.36 -ui-dir /ui 
+ 2340  ls
+ 2341  vim Dockerfile 
+ 2342  cat start.sh 
+ 2343  cd ..
+ 2344  cd Consul/
+ 2345  ls
+ 2346  vim Dockerfile 
+ 2347  history > /home/puja/history.txt
+ 2348  clear
+ 2349  ls
+ 2350  sudo docker ps -a
+ 2351  sudo docker start bserver
+ 2352  sudo docker start server
+ 2353  sudo docker start bserver
+ 2354  sudo docker ps -a
+ 2355  sudo docker inspect -f '{{.NetworkSettings.IPAddress}}' server
+ 2356  sudo docker stop bserver
+ 2357  sudo docker rm bserver
+ 2358* 
+ 2359  sudo docker ps -a
+ 2360  sudo docker start bserver
+ 2361  sudo docker stop server
+ 2362  sudo docker ps -a
+ 2363  sudo docker stop bserevr
+ 2364  sudo docker stop bserver
+ 2365  sudo docker stop server
+ 2366  sudo docker rm server
+ 2367  sudo docker rm bserver
+ 2368  sudo docker run -it -d --name bserver -h bserver puja/consul:bserver
+ 2369  sudo docker ps -a
+ 2370  sudo docker stop bserver
+ 2371  sudo docker stop server
+ 2372  sudo docker rm  bserver
+ 2373  sudo docker ps -a
+ 2374  sudo docker stop bserver
+ 2375  sudo docker ps -a
+ 2376  sudo docker run -it -d --name bserver -h bserver puja/consul:bserver
+ 2377  sudo docker ps -a
+ 2378  sudo docker run -it  --name server -h bserver puja/consul:server
+ 2379  sudo docker stop server
+ 2380  sudo docker rm server
+ 2381  sudo docker run -it  --name bserver -h bserver puja/consul:bserver
+ 2382  sudo docker rm bserver
+ 2383  sudo docker stop bserver
+ 2384  sudo docker rm bserver
+ 2385  sudo docker run -it  --name bserver -h bserver puja/consul:bserver
+ 2386  sudo docker stop bserver
+ 2387  sudo docker rm bserver
+ 2388  sudo docker run -d -it  --name bserver -h bserver puja/consul:bserver
+ 2389  sudo docker exec -it bserver /bin/bash
+ 2390  sudo docker run -d -it  --link bserver:bserver --name server -h server puja/consul:server 
+ 2391  sudo docker exec -it server /bin/bash
+ 2392* 
+ 2393  sudo docker r exec -it bserver consul members
+ 2394  sudo docker  exec -it bserver consul members
+ 2395  cd ..
+ 2396  cd BootstrapConsul/
+ 2397  ls
+ 2398  vim Dockerfile 
+ 2399  cd ..
+ 2400  mkdir  Webconsul
+ 2401  cd Webconsul/
+ 2402  touch Dockerfile
+ 2403  vim Dockerfile 
+ 2404  ls
+ 2405  vim Dockerfile 
+ 2406  sudo docker build -t puja/webconsul:webconsul .
+ 2407  vim Dockerfile 
+ 2408  sudo docker build -t puja/webconsul:webconsul .
+ 2409  sudo docker images
+ 2410  sudo docker run -d -it  --name webserver -h webserver puja/webconsul:webconsul
+ 2411  pwd
+ 2412  cd 
+ 2413  cd /home/puja/KIProject/Webconsul/
+ 2414  ls
+ 2415  vim Dockerfile 
+ 2416  cd
+ 2417  cd /home/puja/KIProject/Webconsul/
+ 2418  ls
+ 2419  sudo docker inspect --format '{{.NetworkSettings.IPAddress}}' webserver
+ 2420  sudo docker inspect --format '{{.NetworkSettings.IPAddress}}' server
+ 2421  sudo docker exec webserver consul agent -data-dir /tmp/consul -client 172.17.0.15 -ui-dir /webconsul -join 172.17.0.12
+ 2422  sudo docker exec webserver /bin/bash
+ 2423  sudo docker exec -itwebserver /bin/bash
+ 2424  sudo docker exec -it webserver /bin/bash
+ 2425  cd ..
+ 2426  ls
+ 2427  vim Dockerfile 
+ 2428  cd ..
+ 2429  cd 
+ 2430  cd KIProject/
+ 2431  ls
+ 2432  cd Webconsul/
+ 2433  ls
+ 2434  vim Dockerfile 
+ 2435  sudo docker build -t puja/webconsul:webconsul .
+ 2436  sudo docker run -d -it  --name webserver -h webserver puja/webconsul:webconsul
+ 2437  sudo docker stop webserver
+ 2438  sudo docker rm webserver
+ 2439  sudo docker run -d -it  --name webserver -h webserver puja/webconsul:webconsul
+ 2440  sudo docker inspect --format '{{.NetworkSettings.IPAddress}}' webserver
+ 2441  sudo docker inspect --format '{{.NetworkSettings.IPAddress}}' server
+ 2442  sudo docker exec webserver consul agent -data-dir /tmp/consul -client 172.17.0.19 -ui-dir /webconsul -join 172.17.0.12
+ 2443  sudo docker exec we-it bserver cobash
+ 2444  sudo docker exec -it bserver cobash
+ 2445  sudo docker exec -it bserver bash
+ 2446  sudo docker exec -it bserver consul members -rpc-addr=192.0.2.50:8400
+ 2447  sudo docker exec -it bserver consul members -rpc-addr=172.17.0.19:8400
+ 2448  cd ..
+ 2449  ls -l
+ 2450  cd Consul/
+ 2451  cat Dockerfile 
+ 2452  cd ..
+ 2453  cd Webconsul/
+ 2454  ls
+ 2455  vim Dockerfile 
+ 2456  ls
+ 2457  cd ..
+ 2458  cd Consul/
+ 2459  ls
+ 2460  vim Dockerfile 
+ 2461  cd ..
+ 2462  cd BootstrapConsul/
+ 2463  ls
+ 2464  vim Dockerfile 
+ 2465  ls
+ 2466  cat serverStart.sh 
+ 2467  cat start.sh 
+ 2468  ls
+ 2469  vim start.sh 
+ 2470  cd ..
+ 2471  ls
+ 2472  history > history1.txt
+ 2473  history > /home/puja/history1.txt
+ 2474  ls
+ 2475  sudo docker images
+ 2476  sudo docker rm 2613a2c4fa5f
+ 2477  sudo docker rm webconsul
+ 2478  sudo docker
+ 2479  sudo docker rmi webconsul
+ 2480  sudo docker images
+ 2481  sudo docker rmi 2613a2c4fa5f
+ 2482  sudo docker stop a06410b3fad7
+ 2483  sudo docker rm a06410b3fad7
+ 2484  sudo docker rmi 2613a2c4fa5f
+ 2485  sudo docker images
+ 2486  sudo docker rmi 2ed322496e2
+ 2487  sudo docker images
+ 2488  sudo docker rmi 12ed322496e2
+ 2489  sudo docker ps -a
+ 2490  sudo docker stop server
+ 2491  sudo docker rm server
+ 2492  sudo docker stop bserver
+ 2493  sudo docker rm bserver
+ 2494  sudo docker stop node4
+ 2495  sudo docker stop node3
+ 2496  sudo docker stop node2
+ 2497  sudo docker stop node1
+ 2498  sudo docker rm node4
+ 2499  sudo docker rm node3
+ 2500  sudo docker rm node2
+ 2501  sudo docker rm node1
+ 2502  sudo docker ps -a
+ 2503  sudo docker stop d04c364db184
+ 2504  sudo docker rm d04c364db184
+ 2505  cd Consul/
+ 2506  ls
+ 2507  sudo docker build -t pujasalampuria/consul:server .
+ 2508  ls
+ 2509  sudo docker images
+ 2510  cd ..
+ 2511  cd BootstrapConsul/
+ 2512  sudo docker build -t pujasalampuria/consul:bootstrapserver .
+ 2513  cd ..
+ 2514  cd Webconsul/
+ 2515  ls
+ 2516  sudo docker build -t pujasalampuria/consul:webserver .
+ 2517  ls
+ 2518  sudo docker images
+ 2519  sudo docker run -it -d --name server -h server pujasalampuria/consul:server
+ 2520  sudo docker run -it -d --name bserver -h bserver pujasalampuria/consul:bootstrapserver
+ 2521  sudo docker stop bserver
+ 2522  sudo docker rm bserver
+ 2523  sudo docker run -it -d --name bserver -h bserver --link server:server pujasalampuria/consul:bootstrapserver
+ 2524  sudo docker run -it -d --name webserver -h webserver  pujasalampuria/consul:webserver
+ 2525  sudo docker ps -a
+ 2526  ls
+ 2527  cd .. 
+ 2528  cd BootstrapConsul/
+ 2529  ls
+ 2530  vim Dockerfile 
+ 2531  ls
+ 2532* 
+ 2533  sudo docker build -t pujasalampuria/consul:bootstrapserver .
+ 2534  sudo docker ps -a
+ 2535  sudo docker stop bserver
+ 2536  sudo docker rm bserver
+ 2537  sudo docker ps -a
+ 2538  sudo docker run -it -d --name bserver -h bserver --link server:server pujasalampuria/consul:bootstrapserver
+ 2539  sudo docker ps -a
+ 2540  ls
+ 2541  sudo docker exec /bin/bash
+ 2542  sudo docker -it exec /bin/bash
+ 2543  sudo docker exec bserver /bin/bash
+ 2544* 
+ 2545* 
+ 2546  vim Dockerfile 
+ 2547  sudo docker exec -it bserver /bin/bash
+ 2548  cat Dockerfile 
+ 2549  sudo docker exec -it bserver mv /consul/serverStart.sh /consul/start.sh
+ 2550  sudo docker exec -it bserver /bin/bash
+ 2551  sudo docker stop bserver
+ 2552  sudo docker start bserver
+ 2553  sudo docker ps -a
+ 2554  ls
+ 2555  sudo docker inspect --format '{{.NetworkSettings.IPAddress}}' bserver
+ 2556  sudo docker inspect --format '{{.NetworkSettings.IPAddress}}' server
+ 2557  sudo docker exec -it webserver consul agent -p 8501:8500 -data-dir /tmp/consul -client 172.17.0.33 -ui-dir /webconsul -join 172.17.0.27
+ 2558  sudo docker exec -it webserver consul agent  -data-dir /tmp/consul -client 172.17.0.33 -ui-dir /webconsul -join 172.17.0.27
+ 2559  sudo docker inspect --format '{{.NetworkSettings.IPAddress}}' server
+ 2560  sudo docker inspect --format '{{.NetworkSettings.IPAddress}}' bserver
+ 2561  sudo docker exec -it webserver consul agent  -data-dir /tmp/consul -client 172.17.0.33 -ui-dir /webconsul -join 172.17.0.27
+ 2562  sudo docker exec -it webserver consul agent  -p 8501:8500 -data-dir /tmp/consul -client 172.17.0.33 -ui-dir /webconsul -join 172.17.0.27
+ 2563  sudo docker exec -it webserver consul agent  -data-dir /tmp/consul -client 172.17.0.33 -ui-dir /webconsul -join 172.17.0.27
+ 2564  sudo docker ps -a
+ 2565  sudo docker exec -it webserver consul agent  -data-dir /tmp/consul -client 172.17.0.33 -ui-dir /webconsul -join 172.17.0.27
+ 2566  ps -ef |grep 8400
+ 2567  sudo docker exec -it webserver ps -ef | grep 8400
+ 2568  sudo docker exec -it webserver ps -ef | grep 8500
+ 2569  sudo docker exec -it webserver ps -ef | grep consul
+ 2570  sudo docker exec -it webserver /bin/bash
+ 2571  sudo docker exec -it server /bin/bash
+ 2572  sudo docker exec -it bootstrapserver /bin/bash
+ 2573  sudo docker exec -it bserver /bin/bash
+ 2574  sudo docker inspect --format '{{.NetworkSettings.IPAddress}}' webserver
+ 2575  sudo docker exec -it webserver consul agent  -data-dir /tmp/consul -client 172.17.0.30 -ui-dir /webconsul -join 172.17.0.27
+ 2576  ls
+ 2577  history > /home/puja/latest.txt
+ 2578  sudo docker exec -it webserver ps -ef |grep consul
+ 2579  sudo docker exec -it server ps -ef |grep consul
+ 2580  sudo docker exec -it bserver ps -ef |grep consul
+ 2581  sudo docker exec -it webserver consul agent  -data-dir /tmp/consul -client 172.17.0.30 -ui-dir /webconsul -join 172.17.0.27
+ 2582  ls
+ 2583  sudo docker exec -it webserver consul agent  -data-dir /tmp/consul -client 172.17.0.30 -ui-dir /webconsul -join 172.17.0.27
+ 2584  ls
+ 2585  sudo docker exec -it webserver consul agent  -data-dir /tmp/consul -client 172.17.0.30 -ui-dir /webconsul -join 172.17.0.27
+ 2586  ls
+ 2587  sudo docker images
+ 2588  sudo docker ps -a
+ 2589  sudo docker stop bserver
+ 2590  sudo docker stop server
+ 2591  sudo docker stop webserver
+ 2592  sudo docker rm server
+ 2593  sudo docker rm bserver
+ 2594  sudo docker rm webserver
+ 2595  sudo docker ps -a
+ 2596  sudo docker run -it -d --name server -h server pujasalampuria/consul:server
+ 2597  sudo docker ps -a
+ 2598  sudo docker logs -f server
+ 2599  sudo docker run -it -d --lilink server:server --name bserver -h bserver pujasalampuria/consul:bootstrapserver
+ 2600  sudo docker run -it -d --link server:server --name bserver -h bserver pujasalampuria/consul:bootstrapserver
+ 2601  sudo docker ps -a
+ 2602  sudo docker logs -f bserver
+ 2603* 
+ 2604  sudo docker logs -f webserver
+ 2605  sudo docker -it exec webserver ps -ef | grep consul
+ 2606* 
+ 2607  sudo docker ps -a
+ 2608  sudo docker -it exec webserver ps -ef | grep consul
+ 2609* sudo docker  exec -it webserver 
+ 2610  sudo docker logs -f webserver
+ 2611  sudo docker run -it  --name webserver -h webserver pujasalampuria/consul:webserver
+ 2612  sudo docker stop cd3204bc49e5 
+ 2613  sudo docker rm cd3204bc49e5 
+ 2614  sudo docker run -it  --name webserver -h webserver pujasalampuria/consul:webserver
+ 2615  sudo docker stop 201aecb3c012
+ 2616  sudo docker rm 201aecb3c012
+ 2617  sudo docker run -d --name webserver -h webserver pujasalampuria/consul:webserver
+ 2618  sudo docker logs -f webserver
+ 2619  sudo docker run  --name webserver -h webserver pujasalampuria/consul:webserver
+ 2620  sudo docker stop cad1b4b31764
+ 2621  sudo docker rm cad1b4b31764
+ 2622  sudo docker run  --name webserver -h webserver pujasalampuria/consul:webserver
+ 2623  sudo docker images
+ 2624  cd ..
+ 2625  cd Webconsul/
+ 2626  ls
+ 2627* 
+ 2628  sudo docker build -t pujasalampuria/consul:webserver .
+ 2629  sudo docker iamges
+ 2630  sudo docker images
+ 2631  sudo docker ps -a
+ 2632* sudo docker 
+ 2633  sudo docker run  --name webserver -h webserver pujasalampuria/consul:webserver
+ 2634  sudo docker run -it  --name webserver -h webserver pujasalampuria/consul:webserver
+ 2635  sudo docker stop 7fdf5b9b5fd9
+ 2636  sudo docker rm 7fdf5b9b5fd9
+ 2637  sudo docker run -it  --name webserver -h webserver pujasalampuria/consul:webserver
+ 2638  sudo docker stop 2dc8f2e5ed5f
+ 2639  sudo docker rm 2dc8f2e5ed5f
+ 2640  sudo docker exec -it bserver /bin/bash
+ 2641  sudo docker exec -it server /bin/bash
+ 2642  sudo docker run -it -d  --name webserver -h webserver pujasalampuria/consul:webserver
+ 2643  sudo docker ps -a
+ 2644  sudo docker inspect --format '{{.NetworkSettings.IPAddress}}' bserver
+ 2645  sudo docker inspect --format '{{.NetworkSettings.IPAddress}}' webserver
+ 2646  sudo docker exec -it webserver  consul agent  -data-dir /tmp/consul -client 172.17.0.42 -ui-dir /webconsul -join 172.17.0.35
+ 2647  history > consulsteps.txt
